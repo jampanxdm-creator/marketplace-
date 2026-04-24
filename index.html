@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> JAMPAN GAME HUB</h1>
+
+<input id="search" placeholder="Search game..." onkeyup="loadGames()" />
+
+<select id="category" onchange="loadGames()">
+  <option value="">All</option>
+  <option>Action</option>
+  <option>Offline</option>
+  <option>PSP</option>
+</select>
+
+<div class="grid" id="games"></div>
+
+<script src="matrix.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
