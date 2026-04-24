@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: 'Segoe UI';
+  color: #0f0;
+}
+
+/* MATRIX CANVAS */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* GLASS CARD */
+.card {
+  backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0,255,0,0.2);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* MOBILE GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+/* SEARCH */
+input {
+  width: 90%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+
+/* BUTTON */
+button {
+  background: black;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 10px;
+}
