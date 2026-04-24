@@ -1,0 +1,5 @@
+<!-- Trailer popup -->
+<iframe id="trailer" width="100%" height="200"></iframe>
+
+<button onclick="download()">Download</button>
+<button onclick="rate(5)">⭐ Rate 5</button>
